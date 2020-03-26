@@ -9,3 +9,7 @@ For example:
 ```buildoutcfg
 python main.py /home/hui/FSI/tree/log.mpirun
 ```
+For running as background process:
+```buildoutcfg
+python main.py /home/hui/FSI/tree/log.mpirun > log.email &
+```
